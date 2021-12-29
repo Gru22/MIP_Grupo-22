@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataDeAgendamento",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "local",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomeDoComercial",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusPosReuniao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "moradaDoRestaurante",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoria",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precoMedio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "outrasNotasRelevantes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomeDeAprovador",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "responsavelPorImplementacao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataDeImplementacao",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [],
+  "entityType": "process-binding",
+  "processBpmnId": "PublicarApp",
+  "domainEntityName": "PublicarAppDados",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "PublicarApp",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}

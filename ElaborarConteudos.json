@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "dataDeAgendamento",
+      "fieldType": "LocalDate",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "local",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "nomeDoComercial",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "moradaDoRestaurante",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoria",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precoMedio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "outrasNotasRelevantes",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "PublicarApp",
+  "processEntityName": "PublicarApp",
+  "taskBpmnId": "ElaborarConteudos",
+  "domainEntityName": "PublicarAppDados",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "ElaborarConteudos",
+  "changelogDate": "20210401000005"
+}

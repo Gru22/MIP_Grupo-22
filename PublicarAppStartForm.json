@@ -1,0 +1,33 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataDeAgendamento",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "local",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nomeDoComercial",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "start-form",
+  "processBpmnId": "PublicarApp",
+  "processEntityName": "PublicarApp",
+  "domainEntityName": "PublicarAppDados",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "PublicarAppStartForm",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}

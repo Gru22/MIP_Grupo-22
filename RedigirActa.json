@@ -1,0 +1,42 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "dataDeAgendamento",
+      "fieldType": "LocalDate",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "local",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "nomeDoComercial",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "statusPosReuniao",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "PublicarApp",
+  "processEntityName": "PublicarApp",
+  "taskBpmnId": "RedigirActa",
+  "domainEntityName": "PublicarAppDados",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "RedigirActa",
+  "changelogDate": "20210401000003"
+}
